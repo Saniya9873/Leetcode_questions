@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class linear_search {
     public static void main(String[] args) {
         //QUES-1: SEARCH IN STRING
-        /*String name="Saniya";
+        String name="Saniya";
         char target='i';
         System.out.println(search(name,target));
 
@@ -19,9 +19,9 @@ public class linear_search {
             }
         }
         return false;
-    */
+    
 
-    /*QUES-2: SEARCH IN RANGE
+    //QUES-2: SEARCH IN RANGE
         int[] arr={18,12,-7,3,14,28};
         int target=3;
         System.out.println(linearSearch(arr, target, 1,4));
@@ -37,7 +37,7 @@ public class linear_search {
             }
         }
         return -1;
-        */
+        
 
     // QUES-3: MINIMUM NUMBER
     int[] arr={18,12,-7,3,14,28};
@@ -54,7 +54,7 @@ public class linear_search {
         return ans;
     
 
-    /*QUES-4: SEARCH IN 2D-ARRAYS
+    //QUES-4: SEARCH IN 2D-ARRAYS
     int[][] arr={
         {1,2,3},
         {9,18,5},
@@ -77,6 +77,6 @@ public class linear_search {
             
         }
         return new int[]{-1,-1};
-    */
+    
     }
 }
